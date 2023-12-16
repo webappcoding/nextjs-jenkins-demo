@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  next-jenkins-app:
-    # container_name: next-app
+  next-app:
+    container_name: next-jenkins-demo
     build:
       context: ./
       dockerfile: Dockerfile
